@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Zoe - Discover your true style - Shop Online!</title>
+  <script src="https://kit.fontawesome.com/8f27d68390.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <header>
+    <h1>💛💛WELCOME TO ZOE BOUTIQUE SHOP!💛💛</h1>
+    <h2>Try it. Wear it. Love it.</h2>
+    <div class="cart-box">
+      <div class="cart-icon">
+        <i class="fas fa-cart-arrow-down fa-2x"></i>
+      </div>
+      <div class="whole-cart-window hide">
+        <h2>Zoe Cart</h2>
+        <div class="cart-wrapper">
+        </div>
+        <div class="subtotal">Subtotal: &#8369; 0.00</div>
+        <div class="checkout">Checkout</div>
+        <div class="view-cart">View Cart</div>
+      </div>
+    </div>
+  </header>
+
+  <!--CAROUSEL START -->
+  <div class="slider">
+    <div class="slides">
+
+      <!-- RADIO BUTTON START -->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- RADIO BUTTON END -->
+
+      <!-- SLIDER FOR IMAGES START-->
+      <div class="slide first">
+        <img src="Slide 11.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Slide 2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Slide 12.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="Slide 14.jpg" alt="">
+      </div>
+      <!-- SLIDER FOR IMAGES END-->
+
+      <!-- FOR AUTOMATIC NAVIGATION START-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn1"></div>
+        <div class="auto-btn1"></div>
+        <div class="auto-btn1"></div>
+      </div>
+      <!-- AUTOMATIC NAVIGATION END-->
+    </div>
+
+    <!-- FOR MANUAL NAVIGATION START-->
+    <div class="">
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!-- MANUAL NAVIGATION END-->
+
+    </div>
+    <!--CAROUSEL END -->
+
+
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function() {
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+  </div>
+
+
+  <!-- ITEMS START -->
+  <section class="shop-section">
+    <div class="card-wrapper">
+      <div data-id="1" class="card-item">
+        <img src="D1.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 100% Cotton</span>
+          </p>
+          <h3>Classic Checkered Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 500.00</span>
+            <span class="add-to-cart-btn">Add To Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="2" class="card-item">
+        <img src="D2.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 95% Cotton, 5% Elastane</span>
+          </p>
+          <h3>Pink Bodycon Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 350.00</span>
+            <span class="add-to-cart-btn">Add To Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="3" class="card-item">
+        <img src="D3.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 93% Cotton, 7% Elastane </span>
+          </p>
+          <h3>Black Short Crinkle Halter Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 250.00</span>
+            <span class="add-to-cart-btn">Add To Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="4" class="card-item">
+        <img src="D4.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 72% Modal, 28% Polyester</span>
+          </p>
+          <h3>Soft Mini Slip Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 270.00</span>
+            <span class="add-to-cart-btn">Add To Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="5" class="card-item">
+        <img src="D5.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Dry Clean</span>
+            <span>⚪Material: 100% Cotton</span>
+          </p>
+          <h3>Blue Short Denim Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 750.00</span>
+            <span class="add-to-cart-btn">Add To Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="6" class="card-item">
+        <img src="D6.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>Material: 100% Viscose</span>
+          </p>
+          <h3>Short Sleeved Mesh Mini Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 400.00 </span>
+            <span class="add-to-cart-btn">Add to Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="7" class="card-item">
+        <img src="D7.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 100% Cotton</span>
+          </p>
+          <h3>Checkered Cut Out Midi Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 800.00 </span>
+            <span class="add-to-cart-btn">Add to Cart</span>
+          </p>
+        </div>
+      </div>
+
+
+      <div data-id="8" class="card-item">
+        <img src="D8.webp" />
+        <div class="details">
+          <p>
+            <span>⚪Care Label: Machine Washable</span>
+            <span>⚪Material: 100% Polyester</span>
+          </p>
+          <h3>Light blue Prairie Midi Dress</h3>
+          <p>
+            <span class="price">Price: &#8369; 1200.00 </span>
+            <span class="add-to-cart-btn">Add to Cart</span>
+          </p>
+        </div>
+      </div>
+      <!--ITEMS END -->
+
+
+      <h4> Ⓒ ©Copyright 2022 ZOE Boutique Basic Web Development Assessment. </h4>
+
+    </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>
